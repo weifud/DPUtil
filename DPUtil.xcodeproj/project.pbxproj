@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0469B81CB4F4F400E4691F /* DPUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0469B71CB4F4F400E4691F /* DPUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C0469BD1CB4F7E700E4691F /* DPList.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0469BB1CB4F7E700E4691F /* DPList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C0469BE1CB4F7E700E4691F /* DPList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0469BC1CB4F7E700E4691F /* DPList.m */; };
+		1CA4D1A71CB4DFAD0064AE67 /* DPSandBoxManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D19F1CB4DFAD0064AE67 /* DPSandBoxManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA4D1A81CB4DFAD0064AE67 /* DPSandBoxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1A01CB4DFAD0064AE67 /* DPSandBoxManager.m */; };
+		1CA4D1A91CB4DFAD0064AE67 /* DPTcpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1A11CB4DFAD0064AE67 /* DPTcpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA4D1AA1CB4DFAD0064AE67 /* DPTcpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1A21CB4DFAD0064AE67 /* DPTcpSocket.m */; };
+		1CA4D1AB1CB4DFAD0064AE67 /* OpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1A31CB4DFAD0064AE67 /* OpenUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA4D1AC1CB4DFAD0064AE67 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1A41CB4DFAD0064AE67 /* OpenUDID.m */; };
+		1CA4D1AD1CB4DFAD0064AE67 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1A51CB4DFAD0064AE67 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA4D1AE1CB4DFAD0064AE67 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1A61CB4DFAD0064AE67 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1CA4D1B11CB4E0390064AE67 /* DPJSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1AF1CB4E0390064AE67 /* DPJSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA4D1B21CB4E0390064AE67 /* DPJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1B01CB4E0390064AE67 /* DPJSONKit.m */; };
+		1CA4D1BB1CB4E24D0064AE67 /* DPParseXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1B51CB4E24D0064AE67 /* DPParseXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA4D1BC1CB4E24D0064AE67 /* DPParseXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1B61CB4E24D0064AE67 /* DPParseXML.m */; };
+		1CA4D1BD1CB4E24D0064AE67 /* SFHFKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1B71CB4E24D0064AE67 /* SFHFKeychainUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA4D1BE1CB4E24D0064AE67 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1B81CB4E24D0064AE67 /* SFHFKeychainUtils.m */; };
+		1CA4D1C11CB4E9270064AE67 /* DPAccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1BF1CB4E9270064AE67 /* DPAccountManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA4D1C21CB4E9270064AE67 /* DPAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1C01CB4E9270064AE67 /* DPAccountManager.m */; };
+		1CA6655E1DA8DAFE00BEB2D8 /* DPParseXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1B61CB4E24D0064AE67 /* DPParseXML.m */; };
+		1CA6655F1DA8DAFE00BEB2D8 /* DPJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1B01CB4E0390064AE67 /* DPJSONKit.m */; };
+		1CA665601DA8DAFE00BEB2D8 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1B81CB4E24D0064AE67 /* SFHFKeychainUtils.m */; };
+		1CA665611DA8DAFE00BEB2D8 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1A41CB4DFAD0064AE67 /* OpenUDID.m */; };
+		1CA665621DA8DAFE00BEB2D8 /* DPTcpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1A21CB4DFAD0064AE67 /* DPTcpSocket.m */; };
+		1CA665631DA8DAFE00BEB2D8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1A61CB4DFAD0064AE67 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1CA665641DA8DAFE00BEB2D8 /* DPAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1C01CB4E9270064AE67 /* DPAccountManager.m */; };
+		1CA665651DA8DAFE00BEB2D8 /* DPSandBoxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4D1A01CB4DFAD0064AE67 /* DPSandBoxManager.m */; };
+		1CA665661DA8DAFE00BEB2D8 /* DPList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0469BC1CB4F7E700E4691F /* DPList.m */; };
+		1CA6656A1DA8DAFE00BEB2D8 /* DPUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0469B71CB4F4F400E4691F /* DPUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6656B1DA8DAFE00BEB2D8 /* DPJSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1AF1CB4E0390064AE67 /* DPJSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6656C1DA8DAFE00BEB2D8 /* DPSandBoxManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D19F1CB4DFAD0064AE67 /* DPSandBoxManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6656D1DA8DAFE00BEB2D8 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1A51CB4DFAD0064AE67 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6656E1DA8DAFE00BEB2D8 /* DPParseXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1B51CB4E24D0064AE67 /* DPParseXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6656F1DA8DAFE00BEB2D8 /* DPList.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0469BB1CB4F7E700E4691F /* DPList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA665701DA8DAFE00BEB2D8 /* DPAccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1BF1CB4E9270064AE67 /* DPAccountManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA665711DA8DAFE00BEB2D8 /* DPTcpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1A11CB4DFAD0064AE67 /* DPTcpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA665721DA8DAFE00BEB2D8 /* SFHFKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1B71CB4E24D0064AE67 /* SFHFKeychainUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA665731DA8DAFE00BEB2D8 /* OpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA4D1A31CB4DFAD0064AE67 /* OpenUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6657A1DA8DB8A00BEB2D8 /* DPUtil_Mac-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CA665791DA8DB8A00BEB2D8 /* DPUtil_Mac-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0469B71CB4F4F400E4691F /* DPUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPUtil.h; sourceTree = "<group>"; };
+		1C0469BB1CB4F7E700E4691F /* DPList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPList.h; sourceTree = "<group>"; };
+		1C0469BC1CB4F7E700E4691F /* DPList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPList.m; sourceTree = "<group>"; };
+		1CA4D1971CB4C0640064AE67 /* DPUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA4D1991CB4C0640064AE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA4D19F1CB4DFAD0064AE67 /* DPSandBoxManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSandBoxManager.h; sourceTree = "<group>"; };
+		1CA4D1A01CB4DFAD0064AE67 /* DPSandBoxManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSandBoxManager.m; sourceTree = "<group>"; };
+		1CA4D1A11CB4DFAD0064AE67 /* DPTcpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTcpSocket.h; sourceTree = "<group>"; };
+		1CA4D1A21CB4DFAD0064AE67 /* DPTcpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTcpSocket.m; sourceTree = "<group>"; };
+		1CA4D1A31CB4DFAD0064AE67 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		1CA4D1A41CB4DFAD0064AE67 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		1CA4D1A51CB4DFAD0064AE67 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1CA4D1A61CB4DFAD0064AE67 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1CA4D1AF1CB4E0390064AE67 /* DPJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPJSONKit.h; sourceTree = "<group>"; };
+		1CA4D1B01CB4E0390064AE67 /* DPJSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPJSONKit.m; sourceTree = "<group>"; };
+		1CA4D1B51CB4E24D0064AE67 /* DPParseXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPParseXML.h; sourceTree = "<group>"; };
+		1CA4D1B61CB4E24D0064AE67 /* DPParseXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPParseXML.m; sourceTree = "<group>"; };
+		1CA4D1B71CB4E24D0064AE67 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		1CA4D1B81CB4E24D0064AE67 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		1CA4D1BF1CB4E9270064AE67 /* DPAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAccountManager.h; sourceTree = "<group>"; };
+		1CA4D1C01CB4E9270064AE67 /* DPAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAccountManager.m; sourceTree = "<group>"; };
+		1CA665771DA8DAFE00BEB2D8 /* DPUtil_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPUtil_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA665791DA8DB8A00BEB2D8 /* DPUtil_Mac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DPUtil_Mac-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CA4D1941CB4C0640064AE67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA665671DA8DAFE00BEB2D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA4D17E1CB4C0200064AE67 = {
+			isa = PBXGroup;
+			children = (
+				1CA4D1981CB4C0640064AE67 /* DPUtil */,
+				1CA4D1881CB4C0200064AE67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CA4D1881CB4C0200064AE67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CA4D1971CB4C0640064AE67 /* DPUtil.framework */,
+				1CA665771DA8DAFE00BEB2D8 /* DPUtil_Mac.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CA4D1981CB4C0640064AE67 /* DPUtil */ = {
+			isa = PBXGroup;
+			children = (
+				1CA4D19E1CB4DFAD0064AE67 /* libDPUtil */,
+				1CA4D1991CB4C0640064AE67 /* Info.plist */,
+				1CA665791DA8DB8A00BEB2D8 /* DPUtil_Mac-Info.plist */,
+			);
+			path = DPUtil;
+			sourceTree = "<group>";
+		};
+		1CA4D19E1CB4DFAD0064AE67 /* libDPUtil */ = {
+			isa = PBXGroup;
+			children = (
+				1C0469B71CB4F4F400E4691F /* DPUtil.h */,
+				1CA4D1BF1CB4E9270064AE67 /* DPAccountManager.h */,
+				1CA4D1C01CB4E9270064AE67 /* DPAccountManager.m */,
+				1CA4D1B51CB4E24D0064AE67 /* DPParseXML.h */,
+				1CA4D1B61CB4E24D0064AE67 /* DPParseXML.m */,
+				1CA4D1AF1CB4E0390064AE67 /* DPJSONKit.h */,
+				1CA4D1B01CB4E0390064AE67 /* DPJSONKit.m */,
+				1C0469BB1CB4F7E700E4691F /* DPList.h */,
+				1C0469BC1CB4F7E700E4691F /* DPList.m */,
+				1CA4D19F1CB4DFAD0064AE67 /* DPSandBoxManager.h */,
+				1CA4D1A01CB4DFAD0064AE67 /* DPSandBoxManager.m */,
+				1CA4D1A11CB4DFAD0064AE67 /* DPTcpSocket.h */,
+				1CA4D1A21CB4DFAD0064AE67 /* DPTcpSocket.m */,
+				1CA4D1A31CB4DFAD0064AE67 /* OpenUDID.h */,
+				1CA4D1A41CB4DFAD0064AE67 /* OpenUDID.m */,
+				1CA4D1B71CB4E24D0064AE67 /* SFHFKeychainUtils.h */,
+				1CA4D1B81CB4E24D0064AE67 /* SFHFKeychainUtils.m */,
+				1CA4D1A51CB4DFAD0064AE67 /* Reachability.h */,
+				1CA4D1A61CB4DFAD0064AE67 /* Reachability.m */,
+			);
+			path = libDPUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CA4D19D1CB4C0B30064AE67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0469B81CB4F4F400E4691F /* DPUtil.h in Headers */,
+				1CA4D1B11CB4E0390064AE67 /* DPJSONKit.h in Headers */,
+				1CA4D1A71CB4DFAD0064AE67 /* DPSandBoxManager.h in Headers */,
+				1CA4D1AD1CB4DFAD0064AE67 /* Reachability.h in Headers */,
+				1CA4D1BB1CB4E24D0064AE67 /* DPParseXML.h in Headers */,
+				1C0469BD1CB4F7E700E4691F /* DPList.h in Headers */,
+				1CA4D1C11CB4E9270064AE67 /* DPAccountManager.h in Headers */,
+				1CA4D1A91CB4DFAD0064AE67 /* DPTcpSocket.h in Headers */,
+				1CA4D1BD1CB4E24D0064AE67 /* SFHFKeychainUtils.h in Headers */,
+				1CA4D1AB1CB4DFAD0064AE67 /* OpenUDID.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA665691DA8DAFE00BEB2D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA6656A1DA8DAFE00BEB2D8 /* DPUtil.h in Headers */,
+				1CA6656B1DA8DAFE00BEB2D8 /* DPJSONKit.h in Headers */,
+				1CA6656C1DA8DAFE00BEB2D8 /* DPSandBoxManager.h in Headers */,
+				1CA6656D1DA8DAFE00BEB2D8 /* Reachability.h in Headers */,
+				1CA6656E1DA8DAFE00BEB2D8 /* DPParseXML.h in Headers */,
+				1CA6656F1DA8DAFE00BEB2D8 /* DPList.h in Headers */,
+				1CA665701DA8DAFE00BEB2D8 /* DPAccountManager.h in Headers */,
+				1CA665711DA8DAFE00BEB2D8 /* DPTcpSocket.h in Headers */,
+				1CA665721DA8DAFE00BEB2D8 /* SFHFKeychainUtils.h in Headers */,
+				1CA665731DA8DAFE00BEB2D8 /* OpenUDID.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CA4D1961CB4C0640064AE67 /* DPUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA4D19A1CB4C0640064AE67 /* Build configuration list for PBXNativeTarget "DPUtil" */;
+			buildPhases = (
+				1CA4D1931CB4C0640064AE67 /* Sources */,
+				1CA4D1941CB4C0640064AE67 /* Frameworks */,
+				1CA4D1951CB4C0640064AE67 /* Resources */,
+				1CA4D19D1CB4C0B30064AE67 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPUtil;
+			productName = DPUtil;
+			productReference = 1CA4D1971CB4C0640064AE67 /* DPUtil.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1CA6655C1DA8DAFE00BEB2D8 /* DPUtil_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA665741DA8DAFE00BEB2D8 /* Build configuration list for PBXNativeTarget "DPUtil_Mac" */;
+			buildPhases = (
+				1CA6655D1DA8DAFE00BEB2D8 /* Sources */,
+				1CA665671DA8DAFE00BEB2D8 /* Frameworks */,
+				1CA665681DA8DAFE00BEB2D8 /* Resources */,
+				1CA665691DA8DAFE00BEB2D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPUtil_Mac;
+			productName = DPUtil;
+			productReference = 1CA665771DA8DAFE00BEB2D8 /* DPUtil_Mac.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CA4D17F1CB4C0200064AE67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Digital Power";
+				TargetAttributes = {
+					1CA4D1961CB4C0640064AE67 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 1CA4D1821CB4C0200064AE67 /* Build configuration list for PBXProject "DPUtil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1CA4D17E1CB4C0200064AE67;
+			productRefGroup = 1CA4D1881CB4C0200064AE67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CA4D1961CB4C0640064AE67 /* DPUtil */,
+				1CA6655C1DA8DAFE00BEB2D8 /* DPUtil_Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CA4D1951CB4C0640064AE67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA6657A1DA8DB8A00BEB2D8 /* DPUtil_Mac-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA665681DA8DAFE00BEB2D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CA4D1931CB4C0640064AE67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA4D1BC1CB4E24D0064AE67 /* DPParseXML.m in Sources */,
+				1CA4D1B21CB4E0390064AE67 /* DPJSONKit.m in Sources */,
+				1CA4D1BE1CB4E24D0064AE67 /* SFHFKeychainUtils.m in Sources */,
+				1CA4D1AC1CB4DFAD0064AE67 /* OpenUDID.m in Sources */,
+				1CA4D1AA1CB4DFAD0064AE67 /* DPTcpSocket.m in Sources */,
+				1CA4D1AE1CB4DFAD0064AE67 /* Reachability.m in Sources */,
+				1CA4D1C21CB4E9270064AE67 /* DPAccountManager.m in Sources */,
+				1CA4D1A81CB4DFAD0064AE67 /* DPSandBoxManager.m in Sources */,
+				1C0469BE1CB4F7E700E4691F /* DPList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA6655D1DA8DAFE00BEB2D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA6655E1DA8DAFE00BEB2D8 /* DPParseXML.m in Sources */,
+				1CA6655F1DA8DAFE00BEB2D8 /* DPJSONKit.m in Sources */,
+				1CA665601DA8DAFE00BEB2D8 /* SFHFKeychainUtils.m in Sources */,
+				1CA665611DA8DAFE00BEB2D8 /* OpenUDID.m in Sources */,
+				1CA665621DA8DAFE00BEB2D8 /* DPTcpSocket.m in Sources */,
+				1CA665631DA8DAFE00BEB2D8 /* Reachability.m in Sources */,
+				1CA665641DA8DAFE00BEB2D8 /* DPAccountManager.m in Sources */,
+				1CA665651DA8DAFE00BEB2D8 /* DPSandBoxManager.m in Sources */,
+				1CA665661DA8DAFE00BEB2D8 /* DPList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CA4D18E1CB4C0210064AE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		1CA4D18F1CB4C0210064AE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		1CA4D19B1CB4C0640064AE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = DPUtil/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpower.DPUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1CA4D19C1CB4C0640064AE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = DPUtil/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpower.DPUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1CA665751DA8DAFE00BEB2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = "DPUtil/DPUtil_Mac-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PLIST_FILE_OUTPUT_FORMAT = binary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpower.DPUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				STRINGS_FILE_OUTPUT_ENCODING = binary;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1CA665761DA8DAFE00BEB2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = "DPUtil/DPUtil_Mac-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PLIST_FILE_OUTPUT_FORMAT = binary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpower.DPUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				STRINGS_FILE_OUTPUT_ENCODING = binary;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CA4D1821CB4C0200064AE67 /* Build configuration list for PBXProject "DPUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA4D18E1CB4C0210064AE67 /* Debug */,
+				1CA4D18F1CB4C0210064AE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA4D19A1CB4C0640064AE67 /* Build configuration list for PBXNativeTarget "DPUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA4D19B1CB4C0640064AE67 /* Debug */,
+				1CA4D19C1CB4C0640064AE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA665741DA8DAFE00BEB2D8 /* Build configuration list for PBXNativeTarget "DPUtil_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA665751DA8DAFE00BEB2D8 /* Debug */,
+				1CA665761DA8DAFE00BEB2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CA4D17F1CB4C0200064AE67 /* Project object */;
+}
